@@ -6,6 +6,7 @@ requires-python = ">=3.13"
 dependencies = [
     "google-genai>=1.31.0",
     "langchain[google-genai]>=0.3.27",
+    "langfuse>=3.3.0",
     "langsmith>=0.4.16",
     "mypy>=1.11",
     "ruff>=0.12.10",

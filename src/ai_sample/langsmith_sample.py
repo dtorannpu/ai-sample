@@ -6,7 +6,7 @@ def main():
 
     client = Client()
     chain = client.pull_prompt("sample", include_model=True)
-    response = chain.invoke({})
+    response = chain.invoke({"topic": "cats"})
     print(response.text())
 
 
